@@ -1,4 +1,4 @@
-# broussard_2025_co2
+# CO2 Cross-Section Extrapolations at 195K and 300K
 
 This repository gives the CO2 cross-section extrapolations used in Broussard et al. (2025). 
 
