@@ -2,12 +2,16 @@
 
 This repository gives the CO2 cross-section extrapolations used in Broussard et al. (2025). 
 
-Ranjan, S., Schwieterman, E.W., Harman, C., Fateev, A., Sousa-Silva, C., Seager, S. and Hu, R., 2020. Photochemistry of Anoxic Abiotic Habitable Planet Atmospheres: Impact of New H$ _2 $O Cross-Sections. The Astrophysical Journal, accepted. arXiv:2004.04185.
+CO2_195K_least_conservative: provides the prescription for the least conservative CO2 cross sections at 195K. Column 1 is wavelength in nm, column 2 is the cross-section in cm^2. 
 
-The files given here correspond to Figure 2 of that paper. Specifically,
+CO2_195K_most_conservative: provides the prescription for the most conservative CO2 cross sections at 195K. Column 1 is wavelength in nm, column 2 is the cross-section in cm^2. 
 
-cs_h2o_19-4C_updated.txt: corresponds to the total cross-sections measured in our work (measurements done by A. Fateev, DTU). Column 1 is wavelength in nm; column 2 is cross-section in cm^2; column 3 is uncertainty on cross-section, in cm^2. To convert these to the absorption cross-sections reported as the magenta points in Figure 2 of Ranjan et al. 2020, one must subtract off the Rayleigh scattering contribution. To calculate the Rayleigh scattering of H2O, we used the formalism and parameters given in Ranjan & Sasselov (2017, Astrobiology).
+CO2_195K_recommended: provides the prescription for the recommended CO2 cross sections at 195K. Column 1 is wavelength in nm, column 2 is the cross-section in cm^2. 
 
-H2O_prescriptions.txt: provides the prescriptions for the extrapolation prescription (black points in Figure 2) and cutoff prescriptions (purple points in Figure 2). Units are given in the file.
+CO2_300K_least_conservative: provides the prescription for the least conservative CO2 cross sections at 195K. Column 1 is wavelength in nm, column 2 is the cross-section in cm^2. 
 
-These data correspond to 292 K (room temperature)
+CO2_300K_most_conservative: provides the prescription for the most conservative CO2 cross sections at 195K. Column 1 is wavelength in nm, column 2 is the cross-section in cm^2. 
+
+CO2_300K_recommended: provides the prescription for the recommended CO2 cross sections at 195K. Column 1 is wavelength in nm, column 2 is the cross-section in cm^2.
+
+Broussard, W., Schwieterman, E.W., Sousa-Silva, C., Sanger-Johnson, G., Ranjan, S., and Venot, O., 2025. The Impact of Extended CO$ _2 $ Cross Sections on Temperate Anoxic Planet Atmospheres. The Astrophysical Journal, submitted. 
